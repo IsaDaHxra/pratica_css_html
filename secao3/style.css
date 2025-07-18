@@ -15,3 +15,12 @@ h3{
     color: rgb(230, 130, 177);
     font-size: 23px;
 }
+h2{
+    border-bottom:2px solid red ;
+}
+.titulo{
+    border-bottom: 3px solid blue;
+}
+#titulo-aleatorio{
+    border-bottom: 4px solid green;
+}
