@@ -24,3 +24,11 @@ h2{
 #titulo-aleatorio{
     border-bottom: 4px solid green;
 }
+/*nome de cores*/
+.color-name{
+    color: darkred;
+}
+.hex{
+    font-size: 25px;
+    color: #a04aa1;
+}
