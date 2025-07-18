@@ -1,0 +1,17 @@
+h3{
+    font-size: 50px;
+    font-weight: bold;
+    color: violet;
+}
+.paragraph{
+    color: orange;
+    font-size: 25px;
+}
+#paragrafo_azul{
+    color: rgb(78, 118, 204);
+    font-size: 20px;
+}
+#paragrafo_rosa{
+    color: rgb(230, 130, 177);
+    font-size: 23px;
+}

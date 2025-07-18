@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalhando com css</title>
+        <!-- External css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Internal css -->
+        <style>
+            p{
+                color: gold;
+                font-weight: 500;
+                font-size: 50px;
+            }
+         </style>
+    </head>
+    <body>
+        <!-- Inline css -->
+        <h1 style="color: plum;">Utilizando o css inline</h1>
+        <h1
+            style="color: purple; font-size: 50px; border-bottom: 3px solid blue;">Mudando
+            a cor e o tamanho</h1>
+
+        <!-- Internal css -->
+        <p>Mudando a cor e o tamanho</p>
+
+        <!-- External css -->
+        <h3>Mudando a cor</h3>
+
+        <!-- Ordem css -->
+        <p style="color: palevioletred;">Inline css</p>
+        <p>Internal e External</p>
+
+         <!-- Classes -->
+         <p class="paragraph">As classes podem ser utilizadas em um ou mais elementos, geralmente ela é utilizada quando um elemento se repete.</p>
+         <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ea soluta esse consequuntur neque perspiciatis</p>
+         <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aspernatur eligendi, consequuntur, eos</p>
+         
+         <!-- IDs -->
+          <p id="paragrafo_azul">Os ids são únicos e utilizados em elementos únicos, ou seja, não repetimos o mesmo nome na mesma página.</p>
+          <p id="paragrafo_rosa">O HTML não proibe isso, mas é uma má prática.</p>
+    </body>
+</html>
