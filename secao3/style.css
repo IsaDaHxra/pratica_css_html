@@ -32,3 +32,31 @@ h2{
     font-size: 25px;
     color: #a04aa1;
 }
+/*RGB*/
+.rgb{
+    color: rgb(30, 70, 240 );
+}
+/*RGBA*/
+.rgba{
+    color: rgba(200, 145, 190, 0.8);
+}
+/*HSL*/
+.hsl{
+    color: hsl(134, 20%, 53%);
+}
+/*Cor de fundo*/
+.background-color{
+    background-color: #a83e38;
+}
+#background-color2{
+    background-color: rgb(141, 43, 120);
+}
+.opacidade-bg{
+    background-color: cadetblue;
+    opacity: 0.4;  
+} 
+.opacidade-bg-2{
+    background-color: rgb(230, 130, 177);
+    color: black;
+    opacity: 0.4;
+}

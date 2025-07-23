@@ -9,7 +9,6 @@
         <!-- Internal css -->
         <style>
             p{
-                color: gold;
                 font-weight: 500;
                 font-size: 50px;
             }
@@ -32,32 +31,85 @@
         <p style="color: palevioletred;">Inline css</p>
         <p>Internal e External</p>
 
-         <!-- Classes -->
-         <p class="paragraph">As classes podem ser utilizadas em um ou mais elementos, geralmente ela é utilizada quando um elemento se repete.</p>
-         <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. At ea soluta esse consequuntur neque perspiciatis</p>
-         <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aspernatur eligendi, consequuntur, eos</p>
-         
-         <!-- IDs -->
-          <p id="paragrafo_azul">Os ids são únicos e utilizados em elementos únicos, ou seja, não repetimos o mesmo nome na mesma página.</p>
-          <p id="paragrafo_rosa">O HTML não proibe isso, mas é uma má prática.</p>
+        <!-- Classes -->
+        <p class="paragraph">As classes podem ser utilizadas em um ou mais
+            elementos, geralmente ela é utilizada quando um elemento se
+            repete.</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. At ea soluta esse consequuntur neque perspiciatis</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Eveniet aspernatur eligendi, consequuntur, eos</p>
 
-          <!-- Ordem dos seletores -->
-           <p>Quem prevalece é o ID, depois a class e depois o seletor de tag. Ou seja, o id vencerá de todos os outros.</p>
-           <h2 id="titulo-aleatorio" class="titulo">Algum texto</h2>
-           <h2 class="titulo">Algum texto 2</h2>
-           <h2>Algum texto 3</h2>
-           
-           <!-- Para criar uma tag com uma classe, podemos utilizar o atalho h2.nome-qualquer/ e apertar tab. No lugar do h2 podemos colocar
+        <!-- IDs -->
+        <p id="paragrafo_azul">Os ids são únicos e utilizados em elementos
+            únicos, ou seja, não repetimos o mesmo nome na mesma página.</p>
+        <p id="paragrafo_rosa">O HTML não proibe isso, mas é uma má prática.</p>
+
+        <!-- Ordem dos seletores -->
+        <p>Quem prevalece é o ID, depois a class e depois o seletor de tag. Ou
+            seja, o id vencerá de todos os outros.</p>
+        <h2 id="titulo-aleatorio" class="titulo">Algum texto</h2>
+        <h2 class="titulo">Algum texto 2</h2>
+        <h2>Algum texto 3</h2>
+
+        <!-- Para criar uma tag com uma classe, podemos utilizar o atalho h2.nome-qualquer e apertar tab. No lugar do h2 podemos colocar
             qualquer outra tag. -->
-           
-           <!-- Nome de cor -->
-            <p class="color-name">Qualquer texto para nome de cores</p>
-            
-            <!-- Cores HEX -->
-            <p class="hex">Os valores vão de 0 a 9 e A a F. O 0 é o mais escuro e F o mais claro</p>
-            <p class="hex">O valor #000 é a cor preta e o valor #FFF é a cor branca</p>
-            <p class="hex">Temos que inserir 6 digitos, precedidos de uma #</p>
-            <p class="hex">Se um valor for repetido 6 vezes, podemos escrever abreviada. Por exemplo: ao invés de #FFFFFF, podemos escrever #FFF</p>
-            <p class="hex">A mesma coisa vale para #112233 que pode ser #123</p>
+
+        <!-- Nome de cor -->
+        <p class="color-name">Qualquer texto para nome de cores</p>
+
+        <!-- Cores HEX -->
+        <p class="hex">Os valores vão de 0 a 9 e A a F. O 0 é o mais escuro e F
+            o mais claro</p>
+        <p class="hex">O valor #000 é a cor preta e o valor #FFF é a cor
+            branca</p>
+        <p class="hex">Temos que inserir 6 digitos, precedidos de uma #</p>
+        <p class="hex">Se um valor for repetido 6 vezes, podemos escrever
+            abreviada. Por exemplo: ao invés de #FFFFFF, podemos escrever
+            #FFF</p>
+        <p class="hex">A mesma coisa vale para #112233 que pode ser #123</p>
+
+        <!-- Cores RGB -->
+        <p class="rgb">Os valores vão de 0 a 255. O 0 é o mais escuro e o 255 é
+            o mais claro.</p>
+        <p class="rgb">A sintaxe é (0-255, 0-255, 0-255)</p>
+        <p class="rgb">O primeiro representa o vermelho, depois verde e por fim
+            azul.</p>
+        <p class="rgb">Para criar o verde usamos (0, 255, 0)</p>
+
+        <!-- Cores RGBA -->
+        <p class="rgba">O RGBA é a mesma coisa que o rgb, a diferença é que o A
+            (de alpha) altera a opacidade da cor.</p>
+        <p class="rgba">Os valores possíveis são de 0 a 1 (vem de porcentagem,
+            por exemplo: 0.1 representa 10%)</p>
+        <p class="rgba">Sendo assim, o 0 é transparete e 1 totalmente
+            visível.</p>
+
+        <!-- HSL -->
+        <p class="hsl">HSL é um acrômio para hue, saturarion e lightness</p>
+        <p class="hsl">Ela não é muito utilizada</p>
+        <p class="hsl">Podemos definir a cor com: hsl(0-255, 0-100%, 0-100%)</p>
+
+        <!-- Background Color -->
+        <p class="backgroung-color">Quase todos os elementos tem um fundo,
+            podemos manipular as cores deles com o background color.</p>
+        <p class="backgroung-color" id="background-color2">A regra para colocar
+            a cor de fundo é backgroung-color: "cor";</p>
+        <p class="background-color">As regras de cores utilizadas podem ser a
+            que vimos anteriormente.</p>
+
+        <!-- Opacidade no bg -->
+        <div class="opacidade-bg">
+            <p>Podemos utilizar o opacity: "valor"; para alterar a opacidade de
+                um elemento.</p>
+            <p>Os valores são de 0 a 1</p>
+        </div>
+
+        <div class="opacidade-bg-2">
+            <p>Se utilizar o opacity, todos os elementos filhos também terão a
+                opacidade alterada.</p>
+            <p>Caso queira mudar a opacidade somente do fundo, podemos utilizar
+                o rgba na cor de fundo.</p>
+        </div>
     </body>
 </html>
