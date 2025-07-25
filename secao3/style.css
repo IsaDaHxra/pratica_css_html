@@ -69,3 +69,38 @@ h2{
     background-position: center;
     background-size: cover;
 }
+/*Trabalhando com altura e largura*/
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: pink;
+}
+.height-width2{
+    height: 300px;
+    background-color: #123;
+}
+/*Trabalhando com padding*/
+.sem-padding, .padding{
+    background-color: #123;
+    color: #fff;
+}
+.padding{ /*Podemos utilizar paddings individuals com o left, top etc..*/
+    padding: 20px;   /*O pixel é utilizado quando há uma medida fixa. Ela não funciona com o responsivo.*/
+    /*Podemos utilizar o shorthand, caso queira adicionar medidas a todos os lados. por exemplo: padding: 10px 5 px 12 px 20px*/
+    /*A ordem é top, right, bottom e left
+    Ela pode ser aplicada no margin tbm e muitad outras propriedades.
+    se fizer 10px 20px, é correspondente a 10px 20px 10px 20px*/
+}
+.sem-border-box{
+    background-color: #a04aa1;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+.border-box{
+    background-color: #a14a7e;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
