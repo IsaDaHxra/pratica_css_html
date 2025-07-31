@@ -104,3 +104,48 @@ h2{
     padding: 50px;
     box-sizing: border-box;
 }
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted #a04aa1; /*O dotted é pontilhado*/
+}
+.border-bottom{
+    border-bottom: 8px solid #e1ff00;
+    background-color: #a04aa1;
+    padding: 10px;
+}
+.border-left{
+    border-left: 8px solid #e1ff00;
+    background-color: #a04aa1;
+    padding: 40px;
+}
+.rounded-p{
+    border: 4px solid blue;
+    background-color: #123;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.rounded-p-2{
+    background-color: #123;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.margin{
+    margin: 10px;
+    background-color: #123;
+    color: white;
+}
+.margin-top{
+    background-color: #123;
+    color: white;
+    margin-top: 50px;
+}
+.margin-right{
+    background-color: #123;
+    color: white;
+    margin-right: 40px;
+}
