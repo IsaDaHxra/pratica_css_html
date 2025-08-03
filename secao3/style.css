@@ -149,3 +149,82 @@ h2{
     color: white;
     margin-right: 40px;
 }
+.box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #732;
+    border-radius: 5px;
+    width: 250px;
+    height: 400px;
+}
+.text-alling{
+    font-size: 60px;
+    text-align: center;
+}
+.text-alling-right{
+    font-size: 60px;
+    text-align: right;
+}
+.without-underscore{
+    font-size: 30px;
+    text-decoration: none;
+    color: pink;
+}
+.underline{
+    font-size: 30px;
+    text-decoration: underline;
+    color: plum;
+}
+.upper{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.lower{
+    font-size: 30px;
+    text-transform: lowercase;
+}
+.spacing{
+    font-size: 30px;
+    color: rgb(50, 57, 65);
+    letter-spacing: 6px;
+}
+/*Fontes*/
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+.thin, .bold, .bolder{
+    font-family: sans-serif;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 100;
+}
+.bolder{
+    font-weight: 900;
+}
+.small{
+    font-size: 20px;
+}
+.big{
+    font-size: 90px;
+}
